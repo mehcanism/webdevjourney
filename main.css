@@ -10,56 +10,84 @@ body {
 
 #main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 #nav {
     display: flex;
-    flex-direction: column;
-    background-color: #ff3399;
-    justify-content: space-around;
-    left: 0;
+    flex-direction: row;
+    background-color: rosybrown;
+    justify-content: flex-start;
+    top: 0;
     position: fixed;
-    height: 100%;
-    width: 4vw;
+    height: 5vh;
+    width: 100%;
     align-items: center;
+    padding-left: 4vw;
 }
 
 .nav_icons {
     display: flex;
     align-self: center;
-    width: 2.5vw;
-    height: 2.5vw;
+    width: 2vw;
+    height: 2vw;
+    padding: 1vw;
+}
+
+.navi {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
 }
 
 
-
 a:hover {
-    background-color: rgb(255,255,255);
-    border-radius: 100px;
-    width: 2.5vw;
-    height: 2.5vw;
+    filter: invert(100%)
 }
 
 
 #content {
     display: flex;
     flex-direction: column;
-    align-items: right;
 }
 
 .white {
-    border: 1px solid #ff3399;
     background-color: rgb(255, 255, 255);
     text-align: center;
     height: 49vh;
-    width: 100vw;
+    width: 100%;
+    padding-top: 10vh;
 }
 
 .black {
-    border: 1px solid #ff3399;
-    background-color: black;
+    background-color: rosybrown;
     height: 49vh;
-    width: 100vw;
-    color: white;
+    width: 100%;
+    color: black;
+    padding-top: 10vh;
+}
+
+h1 {
+    font-family: 'Book Antiqua';
+    font-size: 7em;
+    text-align: left;
+    padding-left: 5vw;
+}
+
+h3 {
+    font-family: 'Book Antiqua';
+    font-size: 2em;
+    text-align: left;
+    padding-left: 5vw;
+}
+
+#bio {
+    display: flex;
+    flex-direction: row;
+}
+
+#vector_mek {
+    width: 25vw;
+    padding-left: 5vw;
+
 }
