@@ -54,7 +54,7 @@ a:hover {
 .white {
     background-color: rgb(255, 255, 255);
     text-align: center;
-    height: 49vh;
+    height: 45vh;
     width: 100%;
     padding-top: 10vh;
     padding-top: 5vh;
@@ -62,7 +62,7 @@ a:hover {
 
 .black {
     background-color: rosybrown;
-    height: 49vh;
+    height: 45vh;
     width: 100%;
     color: black;
     padding-top: 10vh;
@@ -86,6 +86,7 @@ h3 {
 #bio {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 #vector_mek {
@@ -98,7 +99,9 @@ h3 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-items: flex-start;
     padding-left: 7vw;
+    height: 20vh;
 }
 
 .avion_proj {
